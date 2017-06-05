@@ -38,5 +38,5 @@ echo "If you don't have the password, please register \
 by sending us an email to : zerospeech2017@gmail.com"
 # downloading data
 wget ftp://129.199.81.135/datasets_2/ -P $data_dir \
-     --user=challenge2017 --ask-password \
+     --user=challenge2017 --ask-password -N \
      -m -nH $_PROGRESS_OPT --cut-dirs=1 -R "*.tar.bz2"
