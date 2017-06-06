@@ -1,8 +1,8 @@
 ## General procedure for official evaluation ##
  
-Welcome to the zerospeech2017 surprise evaluation phase!  If you are here, it means that you have developed a system and thoroughly tested and tuned it on the three development languages (see  [www.zerospeech.com/2017](www.zerospeech.com/2017). 
+Welcome to the zerospeech2017 surprise evaluation phase!  If you are here, it means that you have developed a system and thoroughly tested and tuned it on the three development languages (see  [www.zerospeech.com/2017](www.zerospeech.com/2017)). 
  
-The procedure is as follows: you can download the surprise dataset using the script `download_surprise_data.sh`  and run your tuned system on it. Once done, you will prepare a zip archive file containing the command lines, source code/ or binaries for the system, plus the output files files for the 3 dev and 2 surprise languages. This zip will then be submitted to zenodo, in order to create a unique digital object identifier (DOI) for it.  Once we receive the DOI, we will automatically compute on our servers, the official evaluation results of your system. The DOI will appear on our public results page on the [leaderboard result page](http://www.zerospeech.com/bootphon/2017/page_5.html), together with the associated results on all 5 languages.
+The procedure is as follows: you can download the surprise dataset using the script `download_surprise_data.sh`  and run your tuned system on it. Once done, you will prepare a zip archive file containing the command lines, source code/ or binaries for the system, plus the output files files for the 3 dev and 2 surprise languages. This zip will then be submitted to zenodo, in order to create a unique digital object identifier (DOI) for it.  Once we receive the DOI, we will automatically compute on our servers, the official evaluation results of your system. The DOI will appear on our public results page on the [leaderboard result page](http://www.zerospeech.com/2017/page_5.html), together with the associated results on all 5 languages.
  
  ## Downloading the surprise dataset ##
  
