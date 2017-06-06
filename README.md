@@ -1,7 +1,5 @@
 # Getting started #
  
-**What follows will become the zerospeech.com 2017 Getting Started page**
- 
 This document details how to registrate to the challenge, download the datasets and evaluation code and submit your results. If you are experiencing any issue, please contact us at zerospeech2017@gmail.com.
  
 In principle, each team should make only ONE submission. A small number of submissions per team are tolerated (for instance, to compare a small number models; capped at 5 per team) so long as you pledge to report and discuss all of your submissions in the journal article.
