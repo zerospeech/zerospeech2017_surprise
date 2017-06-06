@@ -136,7 +136,7 @@ Here is a README exemple for track 2:
 The evaluation will fail if the archive is not in the correct
 format. Make sure your result directory is ready for evaluation and
 convert it to a *.tar.gz* using
-[this script](submission/make_submission_archive.sh)
+[this script](make_submission_archive.sh)
 from the challenge repository. Here is an example usage with the provided
 [exemple archive](exemple.tar.gz):
 
