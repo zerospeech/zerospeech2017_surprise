@@ -51,7 +51,7 @@ following structure:
         distribution of your program, see below
     track1/
         README
-        {english, french, mandarin, surprise1, surprise2}/
+        {english, french, mandarin, LANG1, LANG2}/
         {1s, 10s, 120s}/
         *.fea
     track2/
@@ -59,8 +59,8 @@ following structure:
         english.txt
         french.txt
         mandarin.txt
-        surprise1.txt
-        surprise2.txt
+        LANG1.txt
+        LANG2.txt
 ```
 
 Valid submissions can contain only one of the tracks, and can have
@@ -104,7 +104,7 @@ lshw -short` or `cat /proc/cpuinfo`), libraries and dependencies.
 
 The `track1` and `track2` directories contain the results you obtained
 on the 3 hypertrain datasets (`english`, `french` and `mandarin`) and
-the 2 hypertest datasets (`surprise1` and `surprise2`) using your
+the 2 hypertest datasets (`LANG1` and `LANG2`) using your
 `system`.
 
 * If you are submitting only for one of the two tracks or if you have
@@ -117,7 +117,7 @@ the 2 hypertest datasets (`surprise1` and `surprise2`) using your
 Here is a README exemple for track 2:
 
 ```bash
-        for LANG in english french mandarin surprise1 surprise2
+        for LANG in english french mandarin LANG1 LANG2
         do
             system/bin/my_spoken_term_disc -a 1 -b 2 -c 3 ~/data/$LANG/training > track2/$LANG.txt
         done
@@ -136,23 +136,22 @@ Here is a README exemple for track 2:
 The evaluation will fail if the archive is not in the correct
 format. Make sure your result directory is ready for evaluation and
 convert it to a *.tar.gz* using
-[this script](https://github.com/bootphon/zerospeech2017/blob/master/submission/make_archive.sh)
+[this script](submission/make_archive.sh)
 from the challenge repository. Here is an example usage with the provided
-[exemple archive](https://github.com/bootphon/zerospeech2017/blob/master/submission/exemple.tar.gz):
-
+[exemple archive](exemple.tar.gz):
 
 ```bash
 
-        $ cd zerospeech2017/submission
+        $ cd zerospeech2017_surprise
         $ tar xf exemple.tar.gz
-        $ make_archive.sh exemple
+        $ make_submission_archive.sh exemple
         checking exemple/system... found
         checking exemple/system README... found exemple/system/README.txt
         checking exemple/{track1, track2} directories... found track1 track2
         checking exemple/track1 README... found exemple/track1/README.md
         [... more checks ...]
-        checking exemple/track2/surprise1.txt... found
-        checking exemple/track2/surprise2.txt... found
+        checking exemple/track2/LANG1.txt... found
+        checking exemple/track2/LANG2.txt... found
         success: exemple dircetory is valid and ready for evaluation
         creating exemple.tar.gz... done
         size of exemple:	68K
