@@ -3,7 +3,7 @@
 Welcome to the zerospeech2017 surprise evaluation phase!  If you are
 here, it means that you have developed a system and thoroughly tested
 and tuned it on the three development languages
-(see [www.zerospeech.com/2017](www.zerospeech.com/2017)).
+(see [www.zerospeech.com/2017](http://www.zerospeech.com/2017)).
 
 The procedure is as follows: you can download the surprise dataset
 using the script `download_surprise_data.sh` and run your tuned system
@@ -188,7 +188,7 @@ challenge, if you have a bigger archive please contact us.
 
 3. The evaluation results will be sent to you by email and published
    within 24h on the
-   [challenge results page](http://www.zerospeech.com/bootphon/2017/page_5.html).
+   [challenge results page](http://www.zerospeech.com/2017/page_5.html).
 
 4. To submit another archive, you can go back to *(2)*. Maximum is 5
    submissions.
