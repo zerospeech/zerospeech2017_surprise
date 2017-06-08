@@ -174,8 +174,7 @@ challenge, if you have a bigger archive please contact us.
       [here](https://zenodo.org/deposit/new?c=zerospeech2017) and
       pre-reserve a DOI.
 
-   - Name your archive as `$doi.tar.gz`, where `$doi` is your
-     pre-reserved DOI.
+   - Your pre-reserved DOI will be the string [`10.SERV/DATACITE`](https://doi.org/10.5281), where `SERV` is numeric value for the DOI provider and `DATACITE` is your data alphanumeric string id (e.g: 10.5281/zenodo.803972). To avoid system incompatibilities you will need to archive your data in a compressed file as `10_SERV_DATACITE.tar.gz`, and from the previous example it will be `10_5281_zenodo_803972.tar.gz`.
 
    - The upload type must be *dataset* to allow the 5OGB limit.
 
