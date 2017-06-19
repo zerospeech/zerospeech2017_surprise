@@ -117,9 +117,9 @@ the 2 hypertest datasets (`LANG1` and `LANG2`) using your
 Here is a README exemple for track 2:
 
 ```bash
-        for LANG in english french mandarin LANG1 LANG2
+        for L in english french mandarin LANG1 LANG2
         do
-            system/bin/my_spoken_term_disc -a 1 -b 2 -c 3 ~/data/$LANG/training > track2/$LANG.txt
+            system/bin/my_spoken_term_disc -a 1 -b 2 -c 3 ~/data/${L}/training > track2/${L}.txt
         done
 ```
 
