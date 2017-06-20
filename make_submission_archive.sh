@@ -181,7 +181,7 @@ then
             || error "undesirable content in $results_dir/track2: $undesirable"
 
 
-    check_readme $results_dir/track1
+    check_readme $results_dir/track2
     ntrack2=0
 
     for name in $languages
