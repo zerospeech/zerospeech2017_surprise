@@ -98,7 +98,7 @@ challenge. It can be distributed as a DOI, sources or binary.
 
 ### `system` README ###
 
-The `system` README must contain the following three types of information:
+The `system` README must contain the following four types of information:
 
 * hardware configuration (e.g. `sudo lshw -short` or `cat /proc/cpuinfo`).
 * system configuration (e.g. `uname -a`).
@@ -128,8 +128,8 @@ gcc (Debian 4.9.2-10) 4.9.2
 
 * hyperparameters
 - Track 1
- number of gaussians: 532
- concentration parameters: 100
+ number of gaussians (-N): 532
+ concentration parameters (-A): 100
  speech features: MFCC-13 with delta and delta2, from HTK 
 ```
 
