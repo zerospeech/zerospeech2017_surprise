@@ -95,10 +95,43 @@ challenge. It can be distributed as a DOI, sources or binary.
   dependencies, etc...). We will run it to check that it does generate
   the same files as the one you provide on the challenge's data.
 
-In all cases, the `system` README must contain at least software
-configuration (e.g. `uname -a`), hardware configuration (e.g. `sudo
-lshw -short` or `cat /proc/cpuinfo`), libraries and dependencies.
 
+### `system` README ###
+
+The `system` README must contain the following three types of information:
+
+* hardware configuration (e.g. `sudo lshw -short` or `cat /proc/cpuinfo`).
+* system configuration (e.g. `uname -a`).
+* libraries and dependencies.
+* list and value of the hyperparameters that have been tuned with the development languages for each of the tracks.
+
+Here is a README exemple:
+
+```
+* hardware
+processor	: 0-7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz
+cpu MHz		: 1596.000
+cache size	: 12288 KB
+
+* system
+Linux habilis 4.9.0-0.bpo.1-amd64 #1 SMP Debian 4.9.2-2~bpo8+1 (2017-01-26) x86_64 GNU/Linux
+
+* library and dependencies
+Python 2.7.5 :: Anaconda 1.6.1 (64-bit)
+numpy 1.7.1
+theano 0.5.0
+gcc (Debian 4.9.2-10) 4.9.2
+
+* hyperparameters
+- Track 1
+ number of gaussians: 532
+ concentration parameters: 100
+ speech features: MFCC-13 with delta and delta2, from HTK 
+```
 
 ### `track1` and `track2` directories ###
 
