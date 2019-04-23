@@ -6,7 +6,8 @@ and tuned it on the three development languages
 (see [www.zerospeech.com/2017](http://www.zerospeech.com/2017)).
 
 The procedure is as follows: you can download the surprise dataset
-using the script `download_surprise_data.sh` and run your tuned system
+on the [ZeroSpeech Website](https://download.zerospeech.com)
+and run your tuned system
 on it. Once done, you will prepare a zip archive file containing the
 command lines, source code/ or binaries for the system, plus the
 output files files for the 3 dev and 2 surprise languages. This zip
@@ -19,8 +20,9 @@ together with the associated results on all 5 languages.
 
 ## Downloading the surprise dataset ##
 
-The dataset can be downloaded via the script
-download_surprise_data.sh. Only the raw files and their VAD
+The dataset can be downloaded on the
+[ZeroSpeech Website](https://download.zerospeech.com).
+Only the raw files and their VAD
 annotations will be available, no other metadata, transcriptions or
 evaluation software will be given.
 
